@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hello World</title>
+  
+  <subtitle>Coding Changes the World</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://Kar-Bar.github.io/"/>
+  <updated>2017-11-20T08:48:52.650Z</updated>
+  <id>http://Kar-Bar.github.io/</id>
+  
+  <author>
+    <name>571</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker</title>
+    <link href="http://Kar-Bar.github.io/2017/11/20/Docker/"/>
+    <id>http://Kar-Bar.github.io/2017/11/20/Docker/</id>
+    <published>2017-11-20T08:48:12.000Z</published>
+    <updated>2017-11-20T08:48:52.650Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Container" scheme="http://Kar-Bar.github.io/tags/Container/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Command</title>
+    <link href="http://Kar-Bar.github.io/2017/11/07/Linux-Command/"/>
+    <id>http://Kar-Bar.github.io/2017/11/07/Linux-Command/</id>
+    <published>2017-11-07T01:53:27.000Z</published>
+    <updated>2017-11-08T06:33:11.638Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-Linux概述"><a href="#1-Linux概述" class="headerlink" title="1. Linux概述"></a>1. Linux概述</h2><h3 id="1-1-介绍"><a href="#1-1-介绍" class="headerlink" title="1.1 介绍"></a>1.1 介绍</h3><ul><li>Linux 是一种类UNIX 计算机操作系统，最早开始于一位名叫林纳斯·托瓦兹(Linus Torvalds)的计算机业余爱好者，当时他是芬兰赫尔辛基大学的学生。他的目的是想设计一个代替Minix（是由一位名叫Andrew Tannebaum的计算机教授编写的一个操作系统示教程序）的操作系统，这个操作系统可用于386、486或奔腾处理器的个人计算机上，并且具有Unix操作系统的全部功能。   </li><li>Linux 是一种类似于UNIX 计算机操作系统。它诞生于1991 年的10 月5 日（这是第一次正式向外公布的时间）。以后借助于Internet 网络，并经过全<br>  世界各地计算机爱好者的共同努力下，现已成为今天世界上使用最多的一种UNIX 类操作系统，并且使用人数还在迅猛增长。Linux 操作系统的诞生、<br>  发展和成长过程始终依赖着以下五个重要支柱：UNIX 操作系统、MINIX 操作系统、GNU 计划、POSIX 标准和Internet 网络。  </li><li>1999年，IBM宣布与Redhat公司建立伙伴关系，以确保Redhat在IBM机器上正确运行。  </li><li>1999.3年IBM、Compaq和Novel宣布投资Redhat公司，以前一直对Linux持否定态度的Oracle公司也宣布投资。  </li><li>2000年初始，SUN公司在Linux的压力下宣布Solaris8降低售价。事实上Linux对SUN造成的冲击远比对Windows来得更大。  </li><li>2001年IBM决定投入10亿美元扩大Linux系统的运用，此举犹如一计强心剂。令华尔街的投资者们闻风而动。8月红色代码爆发，引得许多站点纷纷从Windows<br>  操作系统转向Linux操作系统。  </li><li>2002年是Linux企业化的一年。2月。微软公司迫于各州政府的压力，宣布扩大公开代码行动。这可是Linux开源带来的深刻影响的结果。3月，内核开发者宣<br>  布新的Linux系统支持64位的计算机。  </li><li>2003年1月，NEC宣布将在其手机中使用Linux操作系统，代表着Linux成为进军手机领域。  </li><li>2004年6月的统计报告显示在世界500强超级计算机系统中，使用Linux操作系统的已经占到了280席，抢占原本各种Unix的份额。9月HP开始开罗Linux内核<br>  代码人员。以影响新版本的内核对HP有利的方式发展，而IBM则准备推出OpenPower服务器，仅运行Linux系统。  </li><li>Linux最小只需要4M内存就可以运行。可以嵌入式开发  <h3 id="1-2-Linux的历史"><a href="#1-2-Linux的历史" class="headerlink" title="1.2 Linux的历史"></a>1.2 Linux的历史</h3>  1960年  <pre><code>MIT(Massachusettes Institute of Technology）麻省理工学院研发了30个人同时使用分时操作系统。  </code></pre>  1965年  <pre><code>MIT,ge和bell(贝尔实验室)共同决定研发30人使用的操作系统增加到300个人同时使用，并这个计算称之为multis计算【火星计划】，大概投资500万美元。  </code></pre>  1969年   <pre><code>火星计划终于失败  Ken Thompson(肯汤普森,C语言前身B语言的作者，Unix的发明人之一)开发了server system(文件系统)，受到贝尔实验室广泛欢迎。  Dennis Ritchie(丹尼斯里奇)在文件管理系统的基础上开发了并行了开发了影响世界的操作系统。  </code></pre>  1973年  <pre><code>其两人开发了UNIX系统并公开了源代码、共享了源代码。  - IBM公司发觉UNIX系统有商机，所以在UNIX内核的基础之上开发并AIX操作系统。  - SUN公司在UNIX内核的基础之上也开发了Solaris操作系统。  - HP公司在UNIX内核的基础之上也开发HP UNIX操作系统。     - 加州大学 伯克利分校（University of California, Berkeley）开发了BSD操作系统。  minix(迷你版本的类Unix操作系统，约300MB)      Linus Torvalds(在芬兰读书，pc 386机上)发现minix的优点      minix这么好，为什么不装在个人机器上呢？          答：1991开始（很多开发者）minux移动到pc，到了1994年的时候发布了第一个版本并且取名为Linux。                   1. x:混合          2. Linux is not unix      Linux基础之上：          - Redhat(红帽子)公司在Linux内核代码基础之上开发了常用的软件以及带图像用户界面的操作系统(二次开发)。          - SUSE(德国开发：流行于欧洲)          - Redflag(中国开发：流行于中国)        </code></pre><h3 id="1-3-特性"><a href="#1-3-特性" class="headerlink" title="1.3 特性"></a>1.3 特性</h3><pre><code>- 免费的  - 开源的(代码公开)  - 支持多线程  - 多用户的  - 安全性  - 对内存和文件管理有优越  缺点：操作相对困难（没有图形用户界面）         </code></pre></li></ul><h3 id="1-4-内核基本功能-Kernel’s-Basic-Functions"><a href="#1-4-内核基本功能-Kernel’s-Basic-Functions" class="headerlink" title="1.4 内核基本功能(Kernel’s Basic Functions)"></a>1.4 内核基本功能(Kernel’s Basic Functions)</h3><pre><code>hardware management  memory management  I/O  VFS(Virtual File System)  windows:FAT,NTFS              linux:EXT3,EXT4,swapprocess management  </code></pre><h3 id="1-5-version-number’s"><a href="#1-5-version-number’s" class="headerlink" title="1.5 version number’s"></a>1.5 version number’s</h3><pre><code>format:r.x.y      r: release version      x: 偶数：稳定版本，奇数：开发中版本      y: 错误修补的次数      eg:2.0.38; 2.2.16     </code></pre><h2 id="2-常用命令"><a href="#2-常用命令" class="headerlink" title="2. 常用命令"></a>2. 常用命令</h2><pre><code>运行指令      指令名 【选项】【参数】          </code></pre><h3 id="2-1-增"><a href="#2-1-增" class="headerlink" title="2.1 增"></a>2.1 增</h3><ol><li>文件夹<ul><li>新建文件夹<br> # mkdir,<a href="http://man.linuxde.net/mkdir" target="_blank" rel="external">详细</a></li></ul></li><li>文件<ul><li>新建新的空文件<br>  # touch,<a href="http://man.linuxde.net/touch" target="_blank" rel="external">详细</a>,另一个用法：更新修改时间戳        </li><li>复制文件或目录<br>  # cp,<a href="http://man.linuxde.net/cp" target="_blank" rel="external">详细</a></li></ul></li><li>超链接<a href="http://man.linuxde.net/ln" target="_blank" rel="external">详细</a>,<a href="http://www.cnblogs.com/perfy/p/5164430.html" target="_blank" rel="external">解析</a><br> # ln,(硬链接:复制文件,两个文件之间建立链接,不可以跨文件系统、不能使用于目录,删除源文件之后中，硬链接文件依然存在。软连接：类似于快捷方式)<h3 id="2-2-删"><a href="#2-2-删" class="headerlink" title="2.2 删"></a>2.2 删</h3></li></ol><ul><li>删除文件和目录,<a href="http://man.linuxde.net/rm" target="_blank" rel="external">详细</a><br>   # rm -rf * 删除所有内容(包括目录和文件)  <pre><code>r:递归  r:recursionf:强制  f:force</code></pre></li><li>删除空目录<br>   # rmdir,<a href="http://man.linuxde.net/rmdir" target="_blank" rel="external">详细</a> <h3 id="2-3-改"><a href="#2-3-改" class="headerlink" title="2.3 改"></a>2.3 改</h3></li><li>修改文件名、移动文件,<a href="http://man.linuxde.net/mv" target="_blank" rel="external">详细</a><br>  # mv 旧文件名 新文件名;<br>  # mv 某文件 目标目录;<h3 id="2-4-查"><a href="#2-4-查" class="headerlink" title="2.4 查"></a>2.4 查</h3></li><li>显示可执行文件的完整路径:<br>  # which ls  (安装alias-&gt;$PATH的顺序查找)<br>  # echo $PATH  </li><li>搜索一个可执行工具及其相关配置、帮助<br>  # whereis ls </li><li>查找文件或目录<br>  # locate和slocate,<a href="http://man.linuxde.net/locate_slocate" target="_blank" rel="external">详细</a>,配合update命令使用</li><li>显示目标列表<br>  # ls,<a href="http://man.linuxde.net/ls" target="_blank" rel="external">详细</a></li><li>显示当前完整目录：<br>  # pwd,<a href="http://man.linuxde.net/pwd" target="_blank" rel="external">详细</a>     </li><li>计算指定文本文件的行数、字数、字符数<br>  # wc,<a href="http://man.linuxde.net/wc" target="_blank" rel="external">详细</a></li><li>探测给定文件的类型<br>  # file,<a href="http://man.linuxde.net/file" target="_blank" rel="external">详细</a></li><li>查看文件内容<br>  # more,<a href="http://man.linuxde.net/more" target="_blank" rel="external">详细</a><br>  # less,<a href="http://man.linuxde.net/less" target="_blank" rel="external">详细</a>,<a href="http://www.cnblogs.com/waitig/archive/2016/09/28/5916338.html" target="_blank" rel="external">强化</a><br>  # cat,tac(反向显示内容),<a href="http://man.linuxde.net/cat" target="_blank" rel="external">cat详细</a>,<a href="http://man.linuxde.net/tac" target="_blank" rel="external">tac详细</a><br>  # head,tail,<a href="http://man.linuxde.net/head" target="_blank" rel="external">head详细</a>,<a href="http://man.linuxde.net/tail" target="_blank" rel="external">tail详细</a></li><li>显示文件的状态信息<br>  # stat,<a href="http://man.linuxde.net/stat" target="_blank" rel="external">详细</a></li><li>强大的文本搜索<br>  # grep,<a href="http://man.linuxde.net/grep" target="_blank" rel="external">详细</a></li><li>在指定目录下查找文件<br>  # find,,<a href="http://man.linuxde.net/find" target="_blank" rel="external">详细</a><pre><code>管道命令      find / -name *.html | grep bookmar 在find结果中查找字符串&quot;bookmar&quot;，显示包含这个字符串的文件。重定向命令      ls -l &gt; a.txt 列表的内容写入文件a.txt（覆盖写）      ls -l &gt;&gt; a.txt 列表的内容追加到文件aa.txt</code></pre></li></ul><h3 id="2-5-帮助"><a href="#2-5-帮助" class="headerlink" title="2.5 帮助"></a>2.5 帮助</h3><p>help、man、info三个指令均为Linux下的帮助指令格式，三个指令略有区别</p><ul><li>help:<br>  help命令用于显示shell内部的帮助信息。help命令只能显示shell内部的命令帮助信息。而对于外部命令的帮助信息只能使用man或者info命令查看。   </li><li>man:<br>  通过man指令可以查看Linux中的指令帮助、配置文件帮助和编程帮助等信息。man是在程序安装的时候安装的帮助文档，可以在系统的目录下找到，如果软件有配套的页面，就可以使用man来查找。比如通过指令：ls /user/share/man我们可以看到很多man帮助文档的存储，我们从中看到有很多个man#文件，linux的一些man指令文档就存在于这些文件内。</li><li>info:<br>  info指令是man 指令的详细内容。但man 使用起来要方便的多。一个man 只有一页，而info总是将它们的内容组织成多个区段（节点），每个区段也可能包含子区段（子节点）。info工具可显示更完整的最新的GNU工具信息。通常man中若包含的信息概要在info中也有时，会有提示：“请参考info页更详细内容”。   </li></ul><h3 id="2-6-系统"><a href="#2-6-系统" class="headerlink" title="2.6 系统"></a>2.6 系统</h3><ul><li>父进程,进程初始化工具<br>  # init,<a href="http://man.linuxde.net/init" target="_blank" rel="external">详细</a>  </li><li>创建或更新数据库文件<br>  # updatedb,<a href="http://man.linuxde.net/updatedb" target="_blank" rel="external">详细</a>         </li><li>关机<br>  # halt,<a href="http://man.linuxde.net/halt" target="_blank" rel="external">详细</a><br>  # shutdown -h now,<a href="http://man.linuxde.net/shutdown" target="_blank" rel="external">详细</a><br>  # init 0,<a href="http://man.linuxde.net/init" target="_blank" rel="external">详细</a>  </li><li>重启<br>  # reboot,<a href="http://man.linuxde.net/reboot" target="_blank" rel="external">详细</a><br>  # shutdown -r now,<a href="http://man.linuxde.net/shutdown" target="_blank" rel="external">详细</a><br>  # init 6,<a href="http://man.linuxde.net/init" target="_blank" rel="external">详细</a> </li><li>注销<br>  # logout,<a href="http://man.linuxde.net/logout" target="_blank" rel="external">详细</a>   </li><li>字符界面切换到图像界面:<br>  # startx,<a href="http://man.linuxde.net/startx" target="_blank" rel="external">详细</a>  </li><li>切换用户:<br>  # su 用户名,然后再输入密码,<a href="http://man.linuxde.net/su" target="_blank" rel="external">详细</a>          </li><li>切换目录：<br>  # cd 目录名,<a href="http://man.linuxde.net/cd" target="_blank" rel="external">详细</a> </li><li>运行级别：<br>  # init [0123456],<a href="http://man.linuxde.net/init" target="_blank" rel="external">详细</a>  <pre><code>    0:关机      1:单用户      2:多用户状态没有网络服务      3:多用户状态有网络服务      4:系统未使用保留给用户      5:图形界面      6:系统重启  常用运行级别是3和5，要修改默认的运行级别可改文件/etc/inittab的id:5:initdefault:这一行中的数字     </code></pre></li><li>显示磁盘分区上的可使用的磁盘空间<br>  # df,<a href="http://man.linuxde.net/df" target="_blank" rel="external">详细</a>          </li><li><p>文件和目录磁盘使用的空间的查看<br>  # du,<a href="http://man.linuxde.net/du" target="_blank" rel="external">详细</a></p></li><li><p>虚拟控制台及用户身份切换<br>  -在系统中有12个虚拟控制台，前6个可供用作本地登录<br>  -用户可以用Alt+Fn(n=1~12)来切换<br>  -用su可以用来切换用户身份  </p><pre><code>切换到图形界面：Alt+F7       </code></pre></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;1-Linux概述&quot;&gt;&lt;a href=&quot;#1-Linux概述&quot; class=&quot;headerlink&quot; title=&quot;1. Linux概述&quot;&gt;&lt;/a&gt;1. Linux概述&lt;/h2&gt;&lt;h3 id=&quot;1-1-介绍&quot;&gt;&lt;a href=&quot;#1-1-介绍&quot; class=&quot;he
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://Kar-Bar.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+</feed>
